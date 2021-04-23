@@ -1,0 +1,55 @@
+.kiri img{
+    background-size: cover;
+    width:max-content;
+    height: 100vh;
+}
+
+.kanan {
+    margin-top: 40px;
+}
+
+
+.form-group input{
+    padding: 25px; 
+    border-radius: 15px; 
+}
+
+.form-row button{
+    padding: 5px;
+    border-radius: 15px; 
+}
+
+.col a{
+    color: coral;
+    font-size: large;
+}
+
+.form p{
+    text-align: center;
+    color: rgb(70, 149, 160);
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+.form p:before{
+    content: "";
+    display: block;
+    width: 45%;
+    height: 2px;
+    background :darkgrey;
+    position: absolute;
+    left: 20px;
+    top: 37%;
+}
+
+.form p:after{
+    content: "";
+    display: block;
+    width: 45%;
+    height: 2px;
+    background: darkgrey;
+    position: absolute;
+    right: 20px ;
+    top: 37%;
+}
+
